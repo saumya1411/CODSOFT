@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+
+}
+nav{
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+     
+}
+.logo{
+    margin-left: 10px;
+    color: rgb(44, 53, 53);
+    font-weight: 400;
+    font-size: 35px;
+    font-family:fantasy;
+}
+
+nav ul{
+    flex:1;
+     color: white;
+    display: flex;
+    margin-left: 700px;
+    text-align: center;
+
+}
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(161, 136, 136);
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li a:hover{
+    color:rgb(92, 42, 42);
+    background-color: aliceblue;
+    transition: 1s;
+
+}
+
+.hero-section{
+    background-image: url("images/1.jpg");
+    height: 400px;
+    display: flex;
+   background-size: cover;
+   align-items: flex-end ;
+}
+ h1{
+    padding-left: 50px;
+    margin-top:40px;
+}
+h2{
+    padding-left: 50px;
+    margin-top:40px;   
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    border: none;
+}
+.box{
+    border: 2px solid white;
+    height: 400px;
+    width:23% ;
+    background-color: white;
+    padding: 20px 0px 15px; 
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    height: 150px;
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+    
+
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #222f3d;
+    color:#e2e7e6;
+    align-items: flex-end;
+}
